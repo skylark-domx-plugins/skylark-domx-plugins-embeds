@@ -1,0 +1,1 @@
+{"version":3,"sources":["embeds.js"],"names":["define","skylark","attach"],"mappings":";;;;;;;AAAAA,QACI,oBACD,SAASC,GACR,aACA,OAAOA,EAAQC,OAAO","file":"../embeds.js","sourcesContent":["define([\r\n    \"skylark-langx-ns\"\r\n], function(skylark) {\r\n    'use strict';\r\n    return skylark.attach(\"domx.plugins.embeds\");\r\n});\r\n"]}

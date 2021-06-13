@@ -1,2 +1,2 @@
-# skylark-domx-plugins-htmlviewer
-The skylark htmlviewer plugin library for dom api extension.
+# skylark-domx-plugins-embeds
+The skylark embed plugin library for dom api extension
