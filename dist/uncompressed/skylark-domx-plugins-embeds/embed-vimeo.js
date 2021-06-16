@@ -10,7 +10,7 @@ define([
   var EmbedVimeo = plugins.Plugin.inherit({
     klassName: "EmbedVimeo",
 
-    pluginName : "domx.EmbedVimeo",
+    pluginName : "lark.embeds.vimeo",
 
     options : {
 
@@ -151,7 +151,6 @@ define([
     }
   });
 
-
-  return embeds.EmbedYoutube = EmbedYoutube;
+  return embeds.EmbedVimeo = EmbedVimeo;
 
 });

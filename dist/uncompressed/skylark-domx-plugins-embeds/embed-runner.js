@@ -22,7 +22,7 @@ define([
 
     klassName: "EmbedRunner",
 
-    pluginName : "domx.EmbedRunner",
+    pluginName : "lark.embeds.runner",
 
     options : {
       runnerUrl : "",

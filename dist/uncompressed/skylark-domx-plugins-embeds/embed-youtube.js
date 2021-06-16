@@ -10,7 +10,7 @@ define([
   var EmbedYoutube = plugins.Plugin.inherit({
     klassName: "EmbedYoutube",
 
-    pluginName : "domx.EmbedYoutube",
+    pluginName : "lark.embeds.youtube",
 
     options : {
 
@@ -162,7 +162,6 @@ define([
       }
     }
   });
-
 
   return embeds.EmbedYoutube = EmbedYoutube;
 });

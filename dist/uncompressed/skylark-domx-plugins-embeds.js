@@ -117,7 +117,7 @@ define('skylark-domx-plugins-embeds/embed-runner',[
 
     klassName: "EmbedRunner",
 
-    pluginName : "domx.EmbedRunner",
+    pluginName : "lark.embeds.runner",
 
     options : {
       runnerUrl : "",
@@ -469,7 +469,7 @@ define('skylark-domx-plugins-embeds/embed-vimeo',[
   var EmbedVimeo = plugins.Plugin.inherit({
     klassName: "EmbedVimeo",
 
-    pluginName : "domx.EmbedVimeo",
+    pluginName : "lark.embeds.vimeo",
 
     options : {
 
@@ -610,8 +610,7 @@ define('skylark-domx-plugins-embeds/embed-vimeo',[
     }
   });
 
-
-  return embeds.EmbedYoutube = EmbedYoutube;
+  return embeds.EmbedVimeo = EmbedVimeo;
 
 });
 define('skylark-domx-plugins-embeds/embed-youtube',[
@@ -626,7 +625,7 @@ define('skylark-domx-plugins-embeds/embed-youtube',[
   var EmbedYoutube = plugins.Plugin.inherit({
     klassName: "EmbedYoutube",
 
-    pluginName : "domx.EmbedYoutube",
+    pluginName : "lark.embeds.youtube",
 
     options : {
 
@@ -778,7 +777,6 @@ define('skylark-domx-plugins-embeds/embed-youtube',[
       }
     }
   });
-
 
   return embeds.EmbedYoutube = EmbedYoutube;
 });
