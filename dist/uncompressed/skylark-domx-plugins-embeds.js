@@ -93,7 +93,7 @@ define('skylark-domx-plugins-embeds/embeds',[
     return skylark.attach("domx.plugins.embeds");
 });
 
-define('skylark-domx-plugins-embeds/embed-runner',[
+define('skylark-domx-plugins-embeds/embed_runner',[
     "skylark-domx-iframes/create",
     "skylark-domx/query",
     "skylark-domx-plugins-base",
@@ -457,7 +457,7 @@ define('skylark-domx-plugins-embeds/embed-runner',[
   return embeds.EmbedRunner = EmbedRunner;
 });
 
-define('skylark-domx-plugins-embeds/embed-vimeo',[
+define('skylark-domx-plugins-embeds/embed_vimeo',[
   "skylark-langx/langx",
   "skylark-domx-noder",
   "skylark-domx-query",
@@ -613,7 +613,7 @@ define('skylark-domx-plugins-embeds/embed-vimeo',[
   return embeds.EmbedVimeo = EmbedVimeo;
 
 });
-define('skylark-domx-plugins-embeds/embed-youtube',[
+define('skylark-domx-plugins-embeds/embed_youtube',[
   "skylark-langx/langx",
   "skylark-domx-noder",
   "skylark-domx-query",
@@ -782,9 +782,9 @@ define('skylark-domx-plugins-embeds/embed-youtube',[
 });
 define('skylark-domx-plugins-embeds/main',[
 	"./embeds",
-	"./embed-runner",
-	"./embed-vimeo",
-	"./embed-youtube"
+	"./embed_runner",
+	"./embed_vimeo",
+	"./embed_youtube"
 ],function(embeds){
 	return embeds;
 });

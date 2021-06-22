@@ -1,8 +1,8 @@
 define([
 	"./embeds",
-	"./embed-runner",
-	"./embed-vimeo",
-	"./embed-youtube"
+	"./embed_runner",
+	"./embed_vimeo",
+	"./embed_youtube"
 ],function(embeds){
 	return embeds;
 })
