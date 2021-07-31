@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-domx-plugins/skylark-domx-plugins-embeds/
  * @license MIT
  */
-define(["skylark-langx-ns"],function(n){"use strict";return n.attach("domx.plugins.embeds")});
+define(["skylark-domx-plugins-base/plugins"],function(e){"use strict";return e.embeds={}});
 //# sourceMappingURL=sourcemaps/embeds.js.map

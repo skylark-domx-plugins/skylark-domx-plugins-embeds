@@ -1,6 +1,8 @@
 define([
-    "skylark-langx-ns"
-], function(skylark) {
+    "skylark-domx-plugins-base/plugins"
+], function(plugins) {
     'use strict';
-    return skylark.attach("domx.plugins.embeds");
+
+	return plugins.embeds = {};
 });
+
